@@ -13,7 +13,7 @@ org_data = {}
       attributes.each do |attribute, value|
 binding.pry
         if data
-        value << 
+        value <<
 puts org_data
 end
 
