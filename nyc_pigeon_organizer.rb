@@ -2,6 +2,10 @@ require "pry"
 
 def nyc_pigeon_organizer(data)
   # write your code here!
+org_data = {}
+
+  binding.pry
+org_data
 end
 
 
