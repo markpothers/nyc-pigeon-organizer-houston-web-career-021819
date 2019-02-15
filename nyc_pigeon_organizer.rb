@@ -12,8 +12,10 @@ org_data = {}
 
     org_data.each do |name, attributes|
       attributes.each do |attribute, value|
-binding.pry
-        if 1== 1
+        data.each do |orig_attributes, orig_attribute|
+          if orig_attribute[attribute].include?(name)
+            attribute << orig_attribute.to_s
+          end
         end
       end
     end
