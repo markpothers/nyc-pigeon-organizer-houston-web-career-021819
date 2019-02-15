@@ -9,11 +9,14 @@ org_data = {}
         end
       end
     end
+
     org_data.each do |name, attributes|
       attributes.each do |attribute, value|
 binding.pry
-        if data
-        value <<
+        if 1== 1
+        end
+      end
+    end
 puts org_data
 end
 
