@@ -7,7 +7,7 @@ org_data = {}
       org_data[names] = {}
     end
   end
-  
+
   binding.pry
 org_data
 end
