@@ -1,9 +1,13 @@
 require "pry"
 
 def nyc_pigeon_organizer(data)
-  # write your code here!
 org_data = {}
-
+  data.each do |attributes, attribute|
+    attribute.each do |option, names|
+      org_data[names] = {}
+    end
+  end
+  
   binding.pry
 org_data
 end
