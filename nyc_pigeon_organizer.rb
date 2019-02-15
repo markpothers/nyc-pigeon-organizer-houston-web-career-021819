@@ -4,11 +4,11 @@ def nyc_pigeon_organizer(data)
 org_data = {}
   data.each do |attributes, attribute|
     attribute.each do |option, names|
+      binding.pry
       org_data[names] = {}
     end
   end
-
-  binding.pry
+  
 org_data
 end
 
