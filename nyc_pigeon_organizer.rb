@@ -5,7 +5,7 @@ org_data = {}
     data.each do |attributes, attribute|
       attribute.each do |option, names|
         names.each do |name|
-          org_data[name] = {:color => [], :gender => [], :lives = []}
+          org_data[name] = {:color => [], :gender => [], :lives => []}
         end
       end
     end
