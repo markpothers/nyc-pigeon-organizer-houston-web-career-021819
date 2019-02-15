@@ -4,12 +4,12 @@ def nyc_pigeon_organizer(data)
 org_data = {}
   data.each do |attributes, attribute|
     attribute.each do |option, names|
-      binding.pry
-      org_data[names] = {}
+      names.each do |name|
+      org_data[name] = {}
     end
   end
 
-org_data
+puts org_data
 end
 
 
