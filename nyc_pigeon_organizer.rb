@@ -2,13 +2,13 @@ require "pry"
 
 def nyc_pigeon_organizer(data)
 org_data = {}
-  data.each do |attributes, attribute|
-    attribute.each do |option, names|
-      names.each do |name|
-        org_data[name] = {}
+    data.each do |attributes, attribute|
+      attribute.each do |option, names|
+        names.each do |name|
+          org_data[name] = {:color => [], :gender => [], :lives = []}
+        end
       end
     end
-  end
 
 puts org_data
 end
