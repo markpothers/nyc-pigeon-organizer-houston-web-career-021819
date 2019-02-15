@@ -8,7 +8,7 @@ org_data = {}
       org_data[names] = {}
     end
   end
-  
+
 org_data
 end
 
