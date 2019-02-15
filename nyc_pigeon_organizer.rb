@@ -19,7 +19,7 @@ org_data = {}
 
 
           orig_attribute.each do |orig_attribute, names|
-            if names.include?(name) && 
+            if names.include?(name) &&
               value << orig_attribute.to_s
             end
           end
