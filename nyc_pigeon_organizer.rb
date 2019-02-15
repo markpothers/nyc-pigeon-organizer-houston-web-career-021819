@@ -16,7 +16,7 @@ org_data = {}
           orig_attribute.each do |orig_attribute, names|
             if names.include?(name)
 binding.pry
-              attribute << orig_attribute.to_s
+              value << orig_attribute.to_s
             end
           end
         end
